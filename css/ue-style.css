@@ -38,3 +38,30 @@ body{
     padding-left: 0.8rem;
     padding-right: 0.8rem;
 }
+
+.navbar-brand img {
+    margin-top: -10px;
+    margin-right: 3vw;
+}
+
+.navbar-brand img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+@media screen and (max-width:1024px){
+    .navbar-brand img {
+        margin-right: 0vw;
+    }  
+
+    .nav-item {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    .navbar-brand img {
+        padding-left: 0.6rem;
+    }  
+}
