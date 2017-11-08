@@ -6,10 +6,7 @@ body{
 
 }
 
-.kozepre{
-    max-width: 700px;
-    margin: auto;
-}
+/* ================ Nav ================ */
 
 .bg-dark {
     background-color: #000!important;
@@ -35,4 +32,9 @@ body{
 .dropdown-item:active{
     background-color: #E5C282;
     color: black;
+}
+
+.nav-item {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
 }
