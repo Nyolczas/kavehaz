@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400i,700i&subset=latin-ext');
+/* h1 fonts: */
+/* @import url('https://fonts.googleapis.com/css?family=Oleo+Script'); */
+@font-face {
+    font-family: arecibo;
+    src: url(../fonts/arecibo.ttf);
+}
 
 body{
     background-image: url(../img/bg-pattern.jpg);
     background-size: 120px;
-
+    
 }
 
 /* ================ Nav ================ */
@@ -64,4 +70,19 @@ body{
     .navbar-brand img {
         padding-left: 0.6rem;
     }  
+}
+/* ================ /Nav ================ */
+/* ================ Fősáv ================ */
+
+#fosav {
+    background-color: #6E0D0D;
+}
+
+#fosav h1 {
+    /* font-family: 'Oleo Script', cursive; */
+    font-family: arecibo;
+    font-size: 5.5rem;
+    text-align: center;
+    color: #E8DDCC;
+    padding: 0.5rem;
 }
