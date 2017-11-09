@@ -27,6 +27,13 @@ body{
     color: white;
 }
 
+/* aktív hamburgermenü - kontúr eltüntetés */
+button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
+    border: 1px solid rgba(229, 193, 130, 0.25);
+    outline: none;
+}
+
+
 .nav-item {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
