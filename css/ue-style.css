@@ -13,10 +13,6 @@ body{
     font-family: 'Merriweather', serif;
 }
 
-.navbar-brand img{
-    height: 40px;
-}
-
 .navbar-dark .navbar-nav .active>.nav-link{
     color: #E5C282;
 }
@@ -25,18 +21,13 @@ body{
     color: white;
 }
 
-.dropdown-item:hover{
-    background-color: rgb(228, 228, 228);
-}
-
-.dropdown-item:active{
-    background-color: #E5C282;
-    color: black;
-}
-
 .nav-item {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
+}
+
+.navbar-brand img{
+    height: 40px;
 }
 
 .navbar-brand img {
@@ -47,6 +38,15 @@ body{
 .navbar-brand img:hover {
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.dropdown-item:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.dropdown-item:active{
+    background-color: #E5C282;
+    color: black;
 }
 
 @media screen and (max-width:1024px){
