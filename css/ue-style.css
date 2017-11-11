@@ -100,6 +100,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     background-color: #FBEDD5;
     color: #634115;
     font-family: 'Merriweather', serif;
+    text-align: center;
 }
 
 .jumbotron p {
@@ -114,15 +115,42 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .cim h2 {
     font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
-    text-align: center;
+    font-size: 1.7rem;
 }
-.cim img {
+.deko-side {
     margin: -0.3rem 0.5rem 0 0.5rem;
+    display: none;
 }
+
+.deko-hori {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+ @media screen and (min-width:768px) {
+    .cim h2 {
+        font-size: 2rem;
+    }
+
+    .cim .deko-side {
+        display: inline;
+    }
+
+    .hide {
+        display: none;
+    }
+} 
 
 /* ================ /cim ================ */
 
 
 /* ================ Kapcsolat ================ */
+
+.events-img {
+    display: block;
+    max-width: 50%;
+    margin: auto;
+}
 
 /* ================ /Kapcsolat ================ */
