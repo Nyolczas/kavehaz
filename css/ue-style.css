@@ -108,8 +108,6 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     letter-spacing: 0.06rem;
 }
 
-/* ================ cim2 ================ */
-
 .cim h2 {
     font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
@@ -126,25 +124,31 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     max-width: 100%;
 }
 
-
-/* ================ cim3 ================ */
-
 .jumbotron h3 {
     font-size: 1.5rem;
 }
 
+
+.show {
+    display: none;
+}
 @media screen and (min-width:768px) {
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
     .cim h2 {
         font-size: 2rem;
+        text-align: center;
     }
     
     .cim .deko-side {
         display: inline;
     }
     
-    .hide {
-        display: none;
-    }
 } 
 
 /* ================ /Jumbotron ================ */
