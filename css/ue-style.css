@@ -108,9 +108,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     letter-spacing: 0.06rem;
 }
 
-/* ================ /Jumbotron ================ */
-
-/* ================ cim ================ */
+/* ================ cim2 ================ */
 
 .cim h2 {
     font-family: 'Montserrat', sans-serif; 
@@ -128,22 +126,28 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     max-width: 100%;
 }
 
- @media screen and (min-width:768px) {
+
+/* ================ cim3 ================ */
+
+.jumbotron h3 {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
     .cim h2 {
         font-size: 2rem;
     }
-
+    
     .cim .deko-side {
         display: inline;
     }
-
+    
     .hide {
         display: none;
     }
 } 
 
-/* ================ /cim ================ */
-
+/* ================ /Jumbotron ================ */
 
 /* ================ Kapcsolat ================ */
 
