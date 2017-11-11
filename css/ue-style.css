@@ -91,7 +91,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     }  
 }
 /* ================ /Nav ================ */
-/* ================ Fősáv ================ */
+/* ================================ Fősáv ================================ */
 
 #fosav {
     background-color: #6E0D0D;
@@ -107,7 +107,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 /* ================ /Fősáv ================ */
-/* ================ Jumbotron ================ */
+/* ================================ Jumbotron ================================ */
 
 .jumbotron {
     background-color: #FBEDD5;
@@ -118,7 +118,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 .jumbotron p {
     font-style: italic;    
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.03rem;
 }
 
 .cim h2 {
@@ -180,7 +180,7 @@ hr {
     
 } 
 
-/* ================ /Jumbotron ================ */
+/* ================================ /Jumbotron ================================ */
 
 /* ================ Kapcsolat ================ */
 
