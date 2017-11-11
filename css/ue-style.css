@@ -102,16 +102,26 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     font-family: 'Merriweather', serif;
 }
 
+.jumbotron p {
+    font-style: italic;    
+    letter-spacing: 0.06rem;
+}
+
 /* ================ /Jumbotron ================ */
 
 /* ================ cim ================ */
 
-.cim {
+.cim h2 {
     font-family: 'Montserrat', sans-serif; 
-    font-weight: 700;
+    font-weight: 400;
+    text-align: center;
+}
+.cim img {
+    margin: -0.3rem 0.5rem 0 0.5rem;
 }
 
 /* ================ /cim ================ */
+
 
 /* ================ Kapcsolat ================ */
 
