@@ -155,6 +155,11 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 /* ================ Kapcsolat ================ */
 
+#event-cimek {
+    margin: 3rem;
+    margin-bottom: 3rem;
+}
+
 .events-img {
     display: block;
     max-width: 50%;
