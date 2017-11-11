@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400i,700i&subset=latin-ext');
-/* h1 fonts: */
-/* @import url('https://fonts.googleapis.com/css?family=Oleo+Script'); */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i|Montserrat:400,700&subset=latin-ext');
+/* ue font: */
 @font-face {
     font-family: arecibo;
     src: url(../fonts/arecibo.ttf);
@@ -91,10 +90,28 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     font-size: 5.5rem;
     text-align: center;
     color: #E8DDCC;
-    padding: 0.5rem;
+    padding: 70px 0.5rem 0.8rem 0.5rem;
 }
 
 /* ================ /Fősáv ================ */
+/* ================ Jumbotron ================ */
+
+.jumbotron {
+    background-color: #FBEDD5;
+    color: #634115;
+    font-family: 'Merriweather', serif;
+}
+
+/* ================ /Jumbotron ================ */
+
+/* ================ cim ================ */
+
+.cim {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+}
+
+/* ================ /cim ================ */
 
 /* ================ Kapcsolat ================ */
 
