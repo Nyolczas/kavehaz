@@ -11,6 +11,21 @@ body{
     
 }
 
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+main {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
 /* ================ Nav ================ */
 
 .bg-dark {
@@ -105,13 +120,14 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 .jumbotron p {
     font-style: italic;    
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.05rem;
 }
 
 .cim h2 {
     font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
     font-size: 1.7rem;
+    margin-bottom: 2.5rem;
 }
 .deko-side {
     margin: -0.3rem 0.5rem 0 0.5rem;
@@ -128,10 +144,25 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     font-size: 1.5rem;
 }
 
+.keret {
+    border: 2px solid rgba(99, 65, 21, 1);
+    margin-bottom: 4rem;
+}
+
+.keret2 {
+    border: 1px solid rgb(175, 142, 101);
+    margin: 6px;
+    padding: 1rem 1.5rem 3rem 1.5rem;
+}
+
+hr {
+    border-color: #E5C181;
+}
 
 .show {
     display: none;
 }
+
 @media screen and (min-width:768px) {
     .hide {
         display: none;
@@ -155,15 +186,10 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 /* ================ Kapcsolat ================ */
 
-#event-cimek {
-    margin: 3rem;
-    margin-bottom: 3rem;
-}
-
-.events-img {
-    display: block;
-    max-width: 50%;
-    margin: auto;
+.event-cimek {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
 }
 
 /* ================ /Kapcsolat ================ */
