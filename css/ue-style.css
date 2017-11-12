@@ -22,9 +22,9 @@ main {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
-  margin: 0 auto -120px;
+  margin: 0 auto -150px;
   /* Pad bottom by footer height */
-  padding: 0 0 120px;
+  padding: 0 0 150px;
 }
 /* ================ Nav ================ */
 
@@ -188,7 +188,7 @@ a:hover {
 /* ================================ Footer ================================ */
 
 .footer {
-    height: 120px;
+    height: 150px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -196,7 +196,7 @@ a:hover {
 }
 
 .footerline {
-    margin: 5px;
+    margin: 12px;
 }
 
 #tatai {
@@ -206,14 +206,27 @@ a:hover {
 
 /* Facebook */
 .fa {
-    padding: 0.1rem;
-    font-size: 1rem;
-    width: 50px;
+    padding: 8px;
+    font-size: 15px;
+    width: 33px;
+    text-align: center;
+    background: #3B5998;
     color: white;
+    border-radius: 50%;
+
 }
 
-.fa:hover, #tatai:hover{
+.fa:hover, #tatai:hover {
     color: rgba(255, 255, 255, 0.7);
+}
+
+.fa:hover {
+    background: rgba(59, 90, 152, 0.7);
+}
+
+.footerline p {
+    font-size: 0.82rem;
+    color: #E5C181;
 }
 /* ================================ /Footer ================================ */
 /* ================ Kapcsolat ================ */
