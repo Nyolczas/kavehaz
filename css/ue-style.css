@@ -14,23 +14,23 @@ body{
 html,
 body {
   height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Georgia', serif;
 }
 
-/* Wrapper for page content to push down footer */
 main {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
-  margin: 0 auto -60px;
+  margin: 0 auto -120px;
   /* Pad bottom by footer height */
-  padding: 0 0 60px;
+  padding: 0 0 120px;
 }
 /* ================ Nav ================ */
 
 .bg-dark {
     background-color: #000!important;
-    font-family: 'Merriweather', serif;
+    font-style: italic;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link{
@@ -39,6 +39,9 @@ main {
 
 .navbar-dark .navbar-nav .nav-link{
     color: white;
+    padding: 8px 1vw 0px 1vw;
+    font-size: 1.2rem;
+
 }
 
 /* aktív hamburgermenü - kontúr eltüntetés */
@@ -68,10 +71,6 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .dropdown-item:active{
     background-color: #E5C282;
     color: black;
-}
-
-.footer {
-    height: 60px;
 }
 
 @media screen and (max-width:1024px){
@@ -112,7 +111,8 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .jumbotron {
     background-color: #FBEDD5;
     color: #634115;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Georgia', serif;
     text-align: center;
 }
 
@@ -186,6 +186,12 @@ a:hover {
 
 /* ================================ /Jumbotron ================================ */
 /* ================================ Footer ================================ */
+
+.footer {
+    height: 120px;
+    text-align: center;
+}
+
 /* Facebook */
 .fa {
     padding: 0.1rem;
