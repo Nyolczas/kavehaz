@@ -2,19 +2,23 @@
 /* ue font: */
 @font-face {
     font-family: arecibo;
-    src: url(../fonts/arecibo.ttf);
+    src: url('../fonts/arecibo.ttf');
+}
+
+@font-face {
+    font-family: avenida;
+    src: url(../fonts/avenida.ttf);
 }
 
 body{
     background-image: url(../img/bg-pattern.jpg);
     background-size: 120px;
-    
+    box-sizing: border-box;
 }
 
 html,
 body {
   height: 100%;
-    /* font-family: 'Merriweather', serif; */
     font-family: 'Georgia', serif;
 }
 
@@ -56,11 +60,11 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 .navbar-brand img{
-    height: 40px;
+    height: 35px;
 }
 
 .navbar-brand img {
-    margin-top: -10px;
+    margin-top: -12px;
     margin-right: 3vw;
 }
 
@@ -97,7 +101,6 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 #fosav h1 {
-    /* font-family: 'Oleo Script', cursive; */
     font-family: arecibo;
     font-size: 5.5rem;
     text-align: center;
@@ -111,7 +114,6 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .jumbotron {
     background-color: #FBEDD5;
     color: #634115;
-    /* font-family: 'Merriweather', serif; */
     font-family: 'Georgia', serif;
     text-align: center;
     
@@ -126,7 +128,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 .cim h2 {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: avenida , sans-serif; 
     font-weight: 400;
     font-size: 1.7rem;
     margin-bottom: 2.5rem;
@@ -147,7 +149,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 .jumbotron h3 {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: avenida , sans-serif; 
     font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -162,6 +164,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .keret2 {
     border: 1px solid rgb(175, 142, 101);
     margin: 6px;
+    /* width: 50%; */
     padding: 1rem 1.5rem 3rem 1.5rem;
 }
 
@@ -186,6 +189,7 @@ a:hover {
 }
 
 @media screen and (min-width:768px) {
+
     .hide {
         display: none;
     }
@@ -255,6 +259,29 @@ a:hover {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     line-height: 1.2rem;
+}
+
+.menu-keret2 {
+    border: 1px solid rgb(175, 142, 101);
+    margin: 6px;
+}
+
+@media screen and (min-width:768px) {
+    .menu-keret2 {
+        max-width: 48%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .menu-keret2 {
+        max-width: 31.95%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .menu-keret2 {
+        max-width: 23.85%;
+    }
 }
 
 /* ================ /Menu ================ */
