@@ -114,11 +114,15 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     /* font-family: 'Merriweather', serif; */
     font-family: 'Georgia', serif;
     text-align: center;
+    
 }
 
 .jumbotron p {
     font-style: italic;    
     letter-spacing: 0.03rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
 }
 
 .cim h2 {
@@ -141,6 +145,9 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .jumbotron h3 {
     font-family: 'Montserrat', sans-serif; 
     font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
 }
 
 .keret {
@@ -232,10 +239,5 @@ a:hover {
 /* ================================ /Footer ================================ */
 /* ================ Kapcsolat ================ */
 
-.event-cimek {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    line-height: 2rem;
-}
 
 /* ================ /Kapcsolat ================ */

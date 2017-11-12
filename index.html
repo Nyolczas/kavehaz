@@ -7,7 +7,7 @@
   <meta name="keywords" content="Utasellátó Kávéház, Retour büfékocsi, Vasúttörténeti Park, Bisztró, Kávé, Vendéglátás, Catering, Rendezvények">
   <meta name="description" content="Utasellátó Kávéház honlapja. Köszöntjük az utasellátó kávéházban">
   <meta name="author" content="Nyolczas István">
-  <!-- <link rel="icon" href="img/ue-icon.ico"> -->
+  <link rel="icon" type="image/png" href="img/ue-icon.png">
 
   <title>Utasellátó Kávéház és Bisztró</title>
 
@@ -17,10 +17,11 @@
   <!-- social media -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/ue-style.css" >
+  <link href="css/ue-style.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- navbar -->
   <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark navbar-fixed-top navbar-center">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -34,7 +35,6 @@
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item  active">
             <a class="nav-link" href="index.html"> főoldal
-              <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
@@ -49,7 +49,9 @@
         </ul>
         <ul class="navbar-nav navbar-right ">
           <li class="nav-item">
-            <a class="nav-link" href="rendezvenyek.html">rendezvényszervezés</a>
+            <a class="nav-link" href="rendezvenyek.html">rendezvényszervezés
+              <span class="sr-only">(current)</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="kapcsolat.html">kapcsolat</a>
@@ -57,26 +59,48 @@
         </ul>
       </div>
     </div>
-
   </nav>
-  <div id="fosav">
+  <!-- /.navbar -->
+  <main>
+    <header id="fosav">
+      <div class="container">
+        <h1>Utasellátó Kávéház
+          <br> és Bisztró</h1>
+      </div>
+    </header>
     <div class="container">
-      <h1>Utasellátó Kávéház
-        <br> és Bisztró</h1>
+      <div class="jumbotron">
+        <!-- Az oldal tartalma -->
+        
+        <!-- /.az oldal tartalma -->
+      </div>
     </div>
-  </div>
-  <div class="container">
+    <!-- /.container -->
+  </main>
 
+  <!-- footer -->
+  <footer class="footer bg-dark">
+    <div class="container">
+      <div class="footerline">
+        <a href="https://www.facebook.com/utasellatokavehaz" target="_blank" class="fa fa-facebook"></a>
+      </div>
+      <div class="footerline">
+        <a id="tatai" href="kapcsolat.html">1142 Budapest Tatai út 42.</a>
+      </div>
+      <div class="footerline">
+        <p>&copy
+          <span id="year"></span>
+          Utasellátó Kávéház és Bisztró
+        </p>
+      </div>
+    </div>
+  </footer>
 
-
-  </div>
-  <!-- /.container -->
-
-
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <!-- Optional JavaScript -->
+  <!-- ==================================================  -->
+  <!-- MyScript -->
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
