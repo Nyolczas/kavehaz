@@ -136,6 +136,10 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     display: none;
 }
 
+.deko-side-constant {
+    margin: -0.3rem 0.5rem 0 0.5rem; 
+}
+
 .deko-hori {
     display: block;
     margin: auto;
@@ -171,6 +175,14 @@ hr {
 
 a:hover {
     text-decoration: none;
+}
+
+.balrazar {
+    text-align: left;
+}
+
+.jobbrazar {
+    text-align: right;
 }
 
 @media screen and (min-width:768px) {
@@ -237,7 +249,11 @@ a:hover {
     color: #E5C181;
 }
 /* ================================ /Footer ================================ */
-/* ================ Kapcsolat ================ */
+/* ================ Menu ================ */
 
+.tetelek {
+    margin-top: 1.5rem;
+    line-height: 1.2rem;
+}
 
-/* ================ /Kapcsolat ================ */
+/* ================ /Menu ================ */
