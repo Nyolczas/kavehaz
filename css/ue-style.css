@@ -190,6 +190,18 @@ a:hover {
 .footer {
     height: 120px;
     text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+}
+
+.footerline {
+    margin: 5px;
+}
+
+#tatai {
+    color: white;
+    font-weight: 600;
 }
 
 /* Facebook */
@@ -197,12 +209,10 @@ a:hover {
     padding: 0.1rem;
     font-size: 1rem;
     width: 50px;
-    text-align: center;
-    text-decoration: none;
     color: white;
 }
 
-.fa:hover{
+.fa:hover, #tatai:hover{
     color: rgba(255, 255, 255, 0.7);
 }
 /* ================================ /Footer ================================ */
