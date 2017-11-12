@@ -139,6 +139,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 .jumbotron h3 {
+    font-family: 'Montserrat', sans-serif; 
     font-size: 1.5rem;
 }
 
@@ -208,7 +209,7 @@ a:hover {
 .fa {
     padding: 8px;
     font-size: 15px;
-    width: 33px;
+    width: 32px;
     text-align: center;
     background: #3B5998;
     color: white;
