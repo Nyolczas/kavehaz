@@ -91,7 +91,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     }  
 }
 /* ================ /Nav ================ */
-/* ================================ Fősáv ================================ */
+/* ================================ Header ================================ */
 
 #fosav {
     background-color: #6E0D0D;
@@ -106,7 +106,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     padding: 70px 0.5rem 0.8rem 0.5rem;
 }
 
-/* ================ /Fősáv ================ */
+/* ================================ /Header ================================ */
 /* ================================ Jumbotron ================================ */
 
 .jumbotron {
@@ -161,6 +161,10 @@ hr {
     display: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 @media screen and (min-width:768px) {
     .hide {
         display: none;
@@ -181,7 +185,21 @@ hr {
 } 
 
 /* ================================ /Jumbotron ================================ */
+/* ================================ Footer ================================ */
+/* Facebook */
+.fa {
+    padding: 0.1rem;
+    font-size: 1rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
 
+.fa:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
+/* ================================ /Footer ================================ */
 /* ================ Kapcsolat ================ */
 
 .event-cimek {
