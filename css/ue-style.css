@@ -5,6 +5,11 @@
     src: url('../fonts/arecibo.ttf');
 }
 
+@font-face {
+    font-family: avenida;
+    src: url('../fonts/Avenida LET Plain1.0.ttf');
+}
+
 body{
     background-image: url(../img/bg-pattern.jpg);
     background-size: 120px;
@@ -123,7 +128,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 } */
 
 .cim h2 {
-    font-family: 'Great Vibes', cursive;
+    font-family: avenida, cursive;
     font-weight: 400;
     font-size: 3rem;
     margin-bottom: 2.5rem;
@@ -146,7 +151,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 .jumbotron h3 {
-    font-family: 'Great Vibes', cursive;
+    font-family: avenida, cursive;
     font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
