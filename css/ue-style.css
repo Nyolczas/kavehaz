@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: avenida;
-    src: url(../fonts/avenida.ttf);
+    src: url('../fonts/Avenida LET.ttf');
 }
 
 body{
@@ -119,16 +119,16 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     
 }
 
-.jumbotron p {
-    /*font-style: italic;    
+/*.jumbotron p {
+    font-style: italic;    
     letter-spacing: 0.03rem;
      margin-top: 2rem;
     margin-bottom: 2rem;
-    line-height: 2rem; */
-}
+    line-height: 2rem;
+} */
 
 .cim h2 {
-    font-family: avenida , sans-serif; 
+    font-family: arecibo , sans-serif; 
     font-weight: 400;
     font-size: 1.7rem;
     margin-bottom: 2.5rem;
