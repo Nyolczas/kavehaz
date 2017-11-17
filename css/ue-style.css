@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i|Montserrat:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin-ext');
 /* ue font: */
 @font-face {
     font-family: arecibo;
     src: url('../fonts/arecibo.ttf');
-}
-
-@font-face {
-    font-family: avenida;
-    src: url('../fonts/Avenida LET.ttf');
 }
 
 body{
@@ -128,9 +123,9 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 } */
 
 .cim h2 {
-    font-family: avenida , sans-serif; 
+    font-family: 'Great Vibes', cursive;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 3rem;
     margin-bottom: 2.5rem;
 }
 .deko-side {
@@ -151,8 +146,8 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 .jumbotron h3 {
-    font-family: avenida , sans-serif; 
-    font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     line-height: 2rem;
