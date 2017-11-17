@@ -145,6 +145,8 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .deko-hori {
     display: block;
     margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     max-width: 100%;
 }
 
@@ -186,6 +188,8 @@ a:hover {
 
 .jobbrazar {
     text-align: right;
+    display: table;
+    margin: auto;
 }
 
 @media screen and (min-width:768px) {
@@ -292,7 +296,7 @@ a:hover {
 
 @media screen and (min-width:1200px) {
     .menu-keret2 {
-        max-width: 23.85%;
+        max-width: 32.2%;
     }
 }
 
