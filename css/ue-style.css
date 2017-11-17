@@ -272,6 +272,12 @@ a:hover {
     font-style: normal;  
 }
 
+.menu-magyarazat {
+    margin-bottom: 0px;
+    font-style: italic; 
+    text-indent: 0.5rem;
+}
+
 @media screen and (min-width:768px) {
     .menu-keret2 {
         max-width: 48%;
