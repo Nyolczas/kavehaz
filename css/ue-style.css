@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin-ext');
+/* @import url('https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin-ext'); */
+/* @import url('https://fonts.googleapis.com/css?family=Pacifico&subset=latin-ext'); */
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=latin-ext');
 /* ue font: */
 @font-face {
     font-family: arecibo;
@@ -128,9 +130,9 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 } */
 
 .cim h2 {
-    font-family: avenida, cursive;
+    font-family: 'Lobster', cursive;
     font-weight: 400;
-    font-size: 3rem;
+    /* font-size: 2.8rem; */
     margin-bottom: 2.5rem;
 }
 .deko-side {
@@ -151,8 +153,8 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 .jumbotron h3 {
-    font-family: avenida, cursive;
-    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+    /* font-size: 2rem; */
     margin-top: 2rem;
     margin-bottom: 2rem;
     line-height: 2rem;
@@ -202,7 +204,7 @@ a:hover {
         display: block;
     }
     .cim h2 {
-        font-size: 2rem;
+        /* font-size: 2rem; */
         text-align: center;
     }
     
