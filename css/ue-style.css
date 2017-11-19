@@ -269,6 +269,7 @@ a:hover {
 }
 
 .menu-magyarazat {
+    font-weight: 300;
     margin-bottom: 0px;
     font-style: italic; 
     text-indent: 0.5rem;
