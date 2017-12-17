@@ -1,0 +1,61 @@
+/* ================ Menu ================ */
+
+.tetelek {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2rem;
+}
+
+.menu-keret2, .menu-keret2b {
+    border: 1px solid rgb(175, 142, 101);
+    margin: 6px;
+}
+
+.menu-tetel {
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-style: normal;  
+}
+
+.vekony {
+    font-weight: 300;
+}
+
+.menu-magyarazat {
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-style: italic; 
+    text-indent: 0.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .menu-keret2 {
+        max-width: 48%;
+    }
+
+    .menu-keret2b {
+        flex-basis: 98%;
+        max-width: 98%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .menu-keret2 {
+        max-width: 31.95%;
+    }
+    .menu-keret2b {
+        max-width: 65.2%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .menu-keret2 {
+        max-width: 32.2%;
+    }
+
+    .menu-keret2b {
+        max-width: 65.5%;
+    }
+}
+
+/* ================ /Menu ================ */
