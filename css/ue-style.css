@@ -271,55 +271,33 @@ a:hover {
 
 #terasz {
     background-image: url(../img/fooldal/terasz.jpg);
-    grid-column: 1 / 6;
-    grid-row: 1 / 13;
+    grid-column: 1 / 5;
+    grid-row: 1 / 10;
 }
 
 #tabla {
     background-image: url(../img/fooldal/blackboard.jpg);
     position: relative;
-    grid-column: 6 / 9;
-    grid-row: 1 / 13;
-}
-
-#felirat {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: white;
-    top: 10%;
-    padding: 20px;
-}
-
-#welcome {
-    color: #E8DDCC;
-    font-family: 'Lobster', cursive;
-    font-size: 1.7rem;
-}
-
-#nyitva {
-    font-family: arecibo;
-    font-size: 3.5rem;
-    color: #E5C282;
-    margin-bottom: 1.2rem;
+    grid-column: 1 / 5;
+    grid-row: 10 / 22;
 }
 
 #virag {
     background-image: url(../img/fooldal/virag.jpg);
-    grid-column: 9 / 11;
-    grid-row: 1 / 4;
+    grid-column: 1 / 5;
+    grid-row: 22 / 26;
 }
 
 #suti {
     background-image: url(../img/fooldal/suti.jpg);
-    grid-column: 9 / 11;
-    grid-row: 4 / 8;
+    grid-column: 1 / 5;
+    grid-row: 26 / 31;
 }
 
 #malna {
     background-image: url(../img/fooldal/malna.jpg);
-    grid-column: 9 / 11;
-    grid-row: 8 / 13;
+    grid-column: 1 / 5;
+    grid-row: 31 / 39;
 }
 
 .grid-image {
@@ -328,21 +306,135 @@ a:hover {
     background-size: cover;
 }
 
-// Small devices (landscape phones, 576px and up)
+#felirat {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 3rem;
+    padding: 25px;
+}
+
+#welcome {
+    color: #E8DDCC;
+    font-family: 'Lobster', cursive;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+#nyitva {
+    font-family: arecibo;
+    font-size: 3.5rem;
+    color: #E5C282;
+}
+
+#szezon {
+    font-size: 1.4rem;
+    margin-bottom: 3.2rem;
+    color: #E5C282;
+}
+
+@media (min-width: 480px) {
+    #virag {
+        grid-column: 1 / 5;
+        grid-row: 22 / 27;
+    }
+    
+    #suti {
+        grid-column: 1 / 5;
+        grid-row: 27 / 34;
+    }
+    
+    #malna {
+        grid-column: 1 / 5;
+        grid-row: 34 / 44;
+    }  
+}
+
 @media (min-width: 576px) {
-    ...
+    
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    ...
+    #terasz {
+        grid-column: 1 / 6;
+        grid-row: 1 / 13;
+    }
+    
+    #tabla {
+        grid-column: 6 / 10;
+        grid-row: 1 / 13;
+    }
+
+    #virag {
+        grid-column: 1 / 4;
+        grid-row: 13 / 18;
+    }
+    
+    #suti {
+        grid-column: 4 / 7;
+        grid-row: 13 / 18;
+    }
+    
+    #malna {
+        grid-column: 7 / 10;
+        grid-row: 13 / 18;
+    }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    #terasz {
+        grid-column: 1 / 6;
+        grid-row: 1 / 13;
+    }
+    
+    #tabla {
+        grid-column: 6 / 10;
+        grid-row: 1 / 13;
+    }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+    #virag {
+        grid-column: 1 / 4;
+        grid-row: 13 / 18;
+    }
+    
+    #suti {
+        grid-column: 4 / 7;
+        grid-row: 13 / 18;
+    }
+    
+    #malna {
+        grid-column: 7 / 10;
+        grid-row: 13 / 18;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #terasz {
+        grid-column: 1 / 6;
+        grid-row: 1 / 13;
+    }
+    
+    #tabla {
+        grid-column: 6 / 9;
+        grid-row: 1 / 13;
+    }
+
+    #virag {
+        grid-column: 9 / 11;
+        grid-row: 1 / 4;
+    }
+    
+    #suti {
+        grid-column: 9 / 11;
+        grid-row: 4 / 8;
+    }
+    
+    #malna {
+        grid-column: 9 / 11;
+        grid-row: 8 / 13;
+    }
+}
 
 /* ================ /Index ================ */
 
