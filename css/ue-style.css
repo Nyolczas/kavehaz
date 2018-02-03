@@ -271,18 +271,12 @@ a:hover {
 
 #terasz {
     background-image: url(../img/fooldal/terasz.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     grid-column: 1 / 6;
     grid-row: 1 / 13;
 }
 
 #tabla {
     background-image: url(../img/fooldal/blackboard.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     position: relative;
     grid-column: 6 / 9;
     grid-row: 1 / 13;
@@ -312,29 +306,26 @@ a:hover {
 
 #virag {
     background-image: url(../img/fooldal/virag.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     grid-column: 9 / 11;
     grid-row: 1 / 4;
 }
 
 #suti {
     background-image: url(../img/fooldal/suti.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     grid-column: 9 / 11;
     grid-row: 4 / 8;
 }
 
 #malna {
     background-image: url(../img/fooldal/malna.jpg);
+    grid-column: 9 / 11;
+    grid-row: 8 / 13;
+}
+
+.grid-image {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    grid-column: 9 / 11;
-    grid-row: 8 / 13;
 }
 
 // Small devices (landscape phones, 576px and up)
