@@ -161,7 +161,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 .keret2 {
     border: 1px solid rgb(175, 142, 101);
     margin: 6px;
-    padding: 1rem 1.5rem 3rem 1.5rem;
+    padding: 1rem 1.5rem 2rem 1.5rem;
 }
 
 hr {
