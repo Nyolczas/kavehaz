@@ -58,11 +58,16 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 .navbar-brand img {
     height: 35px;
-}
-
-.navbar-brand img {
     margin-top: -12px;
     margin-right: 3vw;
+    filter: sepia(100%);
+}
+
+.navbar-brand img:hover {
+    height: 37px;
+    margin-top: -13px;
+    margin-right: calc(3vw - 2px);
+    filter: none;
 }
 
 .dropdown-item:hover {
