@@ -292,8 +292,22 @@ a:hover {
     position: absolute;
     width: 100%;
     text-align: center;
+    color: white;
+    top: 10%;
+    padding: 20px;
+}
+
+#welcome {
     color: #E8DDCC;
-    top: 20%;
+    font-family: 'Lobster', cursive;
+    font-size: 1.7rem;
+}
+
+#nyitva {
+    font-family: arecibo;
+    font-size: 3.5rem;
+    color: #E5C282;
+    margin-bottom: 1.2rem;
 }
 
 #virag {
@@ -321,10 +335,6 @@ a:hover {
     background-size: cover;
     grid-column: 9 / 11;
     grid-row: 8 / 13;
-}
-
-.clear {
-    clear: both;
 }
 
 // Small devices (landscape phones, 576px and up)
