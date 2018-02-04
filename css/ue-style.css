@@ -406,6 +406,29 @@ a:hover {
 
 /* ================ /Index ================ */
 
+/* ================ Gallery ================ */
+
+.gallery ul {
+    list-style: none;
+}
+
+.gallery li {
+    float: left;
+    margin: 6px;
+    width: calc((100% - 3rem) / 4);
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ================ /Gallery ================ */
+
 /* ================ Kapcsolat ================ */
 
 #kontaktnev {
